@@ -1,0 +1,100 @@
+/* div {
+  outline: 1px solid lightgrey;
+} */
+
+/* nav styling */
+.wrapper1 {
+  background-color: rgb(58, 58, 58);
+  border-bottom: 10px solid lightgrey;
+  padding: 10px 0px 10px 0px;
+}
+
+.nav-link {
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  letter-spacing: .3em;
+  padding: 12px 15px 12px 15px;
+}
+
+:hover.nav-link {
+ color: rgb(198, 198, 198);
+}
+
+.logo {
+  height: 90px;
+}
+
+/* marquee styling */
+.wrapper3 {
+  border-top: 10px solid lightgrey;
+}
+
+.wood-texture {
+  position: absolute;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  /* filter: drop-shadow(0px 0px 15px #222); */
+}
+
+.marquee {
+  height: 400px;
+}
+
+h1 {
+  color: white;
+  padding-top: 100px;
+  font-family: serif;
+  letter-spacing: 0.06em;
+  font-size: 50px;
+  text-shadow: 0px 0px 20px rgba(60, 60, 60, 0.728);
+}
+
+.marquee-p {
+  color: white;
+  font-family: serif;
+  letter-spacing: 0.06em;
+  font-size: 18px;
+  font-weight: lighter;
+  text-shadow: 0px 0px 10px rgba(62, 62, 62, 0.644);
+}
+
+.cm-bottle {
+  height: 450px;
+  position: absolute;
+  left: -125px;
+  top: 30px;
+  /* filter: drop-shadow(0px 0px 15px #222); */
+  object-fit: cover;
+}
+
+.primary-cta {
+  background: rgb(86, 82, 169);
+  width: 200px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: .3em;
+  padding: 15px 40px 15px 40px;
+  text-align: center;
+  box-shadow: 3px 3px 30px rgba(58, 58, 58, 0.502);
+  text-shadow: 3px 3px 30px rgba(69, 69, 69, 0.502);
+}
+
+/* testimonial styling */
+.wrapper3 {
+  height: 500px;
+  background-color: rgb(255, 241, 210);
+  text-align: center;
+}
+
+h2 {
+  padding-top: 125px;
+  font-family: sans-serif;
+  line-height: 1.5em;
+}
