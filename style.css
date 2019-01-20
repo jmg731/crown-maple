@@ -104,8 +104,25 @@ h2 {
 
 /* secondary nav styling */
 .wrapper4 {
-  height: 500px;
-  background-image: url("./tiny-squares.png");
+  background-image: url("./dimension.png");
   background-repeat: repeat;
-  opacity: 0.6;
+}
+
+.card {
+  width: 23vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  box-shadow: 3px 3px 10px rgba(210, 210, 210, 0.502);
+}
+
+.card-img-top {
+  height: 25vw;
+  padding: 10px;
+}
+
+/* footer styling */
+.wrapper5 {
+  background-color: rgb(58, 58, 58);
+  border-top: 5px solid lightgrey;
+  padding: 10px 0px 10px 0px;
 }
